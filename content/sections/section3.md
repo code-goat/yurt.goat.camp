@@ -9,5 +9,4 @@ We are ready and available to build your new home or retreat space! [Contact Us!
 
 {{< socialhandles >}}
     {{< twitter user="stream_running" >}}
-    {{< github user="runningstream" >}}
 {{< /socialhandles >}}
