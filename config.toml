@@ -7,12 +7,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
     # Provide some metadata for search and indexing services
-    description = "A port of the Grayscale theme to Hugo"
+    description = "goat.camp yurt.goat.camp We build and sell handmade yurts in the Finger Lakes Region of Upstate New York"
     favicon = "favicon.ico"
 
 [Author]
-    name = "RunningStream"
-    email = "dco@runningstream.net"
+    name = "Fern Hill"
+    email = "segg@tuta.io"
 
 [Social]
-    twitter = "stream_running"
+    #twitter = "stream_running"
