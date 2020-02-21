@@ -8,6 +8,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
     # Provide some metadata for search and indexing services
     description = "A port of the Grayscale theme to Hugo"
+    favicon = "favicon.ico"
 
 [Author]
     name = "RunningStream"
