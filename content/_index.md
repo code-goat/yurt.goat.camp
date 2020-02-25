@@ -6,4 +6,5 @@ description: "Yurts as part of goat.camp"
 
 menu:
     - {url: "https://goat.camp/", name: "Goat.Camp"}
+
 ---
