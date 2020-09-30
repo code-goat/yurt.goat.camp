@@ -7,7 +7,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
     # Provide some metadata for search and indexing services
-    description = "goat.camp yurt.goat.camp We build and sell handmade yurts in the Finger Lakes Region of Upstate New York"
+    description = "goat.camp yurt.camp We build and sell handmade yurts"
     favicon = "favicon.ico"
 
 [Author]

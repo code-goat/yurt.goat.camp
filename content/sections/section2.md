@@ -12,8 +12,8 @@ While we are continually inspired and devoted to the yurt as a living structure,
 
 For those that need direct, custom, person-to-person experience in the New York Finger Lakes region to construct, setup, or repair a Yurt, we are your knowledgeable contact.
 
-{{< big-button text="Custom Yurt Construction in the Finger Lakes" href="mailto:segg@tuta.io" >}}
+{{< big-button text="Custom Yurt Construction" href="mailto:contact@yurt.camp" >}}
 
 We can offer consultations and guidance for those of you considering a yurt for your property or mobile dwelling.  
 
-### [Contact Us!](mailto:segg@tuta.io)
+### [Contact Us!](mailto:contact@yurt.camp)
