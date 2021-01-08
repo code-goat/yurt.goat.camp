@@ -1,18 +1,279 @@
-baseURL = "https://goofy-lamarr-58dea5.netlify.com/"
-languageCode = "en-us"
-title = "Hugo Grayscale Theme"
-theme = "hugograyscale"
-#googleAnalytics = ""
-disableKinds = ["taxonomy", "taxonomyTerm"]
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://yurt.camp"
+languageCode = "en-AU"
+title = "Yurt|Camp"
 
+# Metadata
 [params]
-    # Provide some metadata for search and indexing services
-    description = "goat.camp yurt.camp We build and sell handmade yurts"
-    favicon = "favicon.ico"
+  author = "FAE Guild"
+  description = "Folk Arts & Ecology Guild"
 
-[Author]
-    name = "Fern Hill"
-    email = "segg@tuta.io"
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "YURT|camp"
+  description = "A yurt building collective"
 
-[Social]
-    #twitter = "stream_running"
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "Services"
+  team = "The Guild Members"
+  contact = "Gallery"
+    # Include logo instead if HOME:
+  #logo = "images/FAEGuild.jpg"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+
+    [[params.mission.item]]
+    weight = 1
+    name = "Why a Yurt?"
+    title = "Why a Yurt?"
+    subtitle = "Yurts are **affordable** and **elegant**.\n\nThey are a **low-impact and environmentally conscious** mobile dwelling that still provides all the **comfort and beauty** one desires in a home. They are much more cost-effective than conventional housing while providing unique comforts only experienced when within a **circular living**-space. They’re perfectly **adaptable** for both the nomad and the grounded. No matter where they are setup, they bring a sense of **tranquility and beauty** to that place.\n\nFew structures are so **versatile** as a yurt. And we **love** working with them. Let us help you find the yurt you need. [**CONTACT US!**](mailto:contact@yurt.camp)"
+    description = ""
+
+  [[params.mission.item]]
+    weight = 2
+    name = "Our Yurt Specs"
+    title = "Our Yurt Specs"
+    subtitle = "We are proud of our yurt designs. Our structures are **hand-made** with quality materials. \n\n*We offer multiple yurt build sizes: **12ft, 14ft, 18ft, 20ft, 24ft, or 30ft**\n\n*Our wood frames are **naturally treated** with burnt timber cladding and linseed oil. \n\n*Our roof and wall covers are made of **heavy-duty, UV-protected, puncture/abrasion/mildew-resistant and waterproof 18oz vinyl coated polyester**. \n\n*All our yurts are **built to sustain** snow loads and use only **industrial-grade stainless steel** roof cables for structural security. \n\n*Our yurts allow for plenty of light with a full **4ft diameter center rings**. \n\n*We offer both **3-season and 4-season insulation packages** and stove pipe exhaust options.\n\n[**CONTACT US!**](mailto:contact@yurt.camp)For more details about your specific yurt."
+    description = ""
+
+  [[params.mission.item]]
+    weight = 3
+    name = "Yakisugi"
+    title = "Yakisugi"
+    subtitle = "We naturally treat all the wooden elements of our yurts. **Yakisugi (焼杉)** is a traditional Japanese method of wood preservation. Yaki means to heat with fire, and sugi is cypress. This process is also referred to in the West as burnt timber cladding and also known as **Shou Sugi Ban (焼杉板)**. By slightly charring the surface of the wood without combusting the whole piece, the wood becomes **water-proof** through the carbonisation and is thus **more durable**. It also **protects against insects, as well as making it fire retardant**."
+    description = ""
+
+  [[params.mission.item]]
+    weight = 4
+    name = "Folk Arts & Ecology Guild"
+    title = "Folk Arts & Ecology Guild"
+    subtitle = "The **Folk Arts & Ecology Guild** is a small **collective of artists, builders, land-stewards, ecologists and craftspeople**. As a collective, we believe in the elegance of *folk creations* and we trust in the sophistication of *folk knowledge and technologies*.\n\nPeople have continually refined and developed expert skills of craft and ecological wisdom through eons of **change, learning, and adaptation**. We engage this continuum by learning and sharing simple, accessible, **community-scale technologies and designs**. We’re all masters and apprentices to each other. It‘s only through experiential exchange that we can both pick up *and* pass on what we need all to make it through this world. Check out other guilds too:\n\n *Social-Ecological Graziers Guild @ **https://goat.camp**"
+    description = ""
+
+  [[params.mission.item]]
+    weight = 5
+    name = "History of the Yurt"
+    title = "History of the Yurt"
+    subtitle = "While we are continually inspired and devoted to the yurt as a living structure, the yurt is **a traditional Mongolian cultural dwelling**. For this reason we strongly encourage those able to do so, to purchase your yurt from ethnically Mongolian sources such as:\n\n **https://originalyurts.com** \n\nSupporting the ability for traditional people all over the world to practice their cultural crafts and technologies is essential. \n\n*Yurt* is a Turkish word for what Steppe people call a *Ger* (pronounced *Gher*). Yurts have been a distinctive feature of life in Central Asia for at least three thousand years. It is suggested that the Indo-European nomads (mostly Indo-Iranians) were the first that used yurts and similar tents in Central Asia and parts of Russia and Ukraine. The first written description of a yurt used as a dwelling was recorded by the ancient Greek historian Herodotus. He described yurt-like tents as the dwelling place of the Scythians, a horse riding-nomadic nation who lived in the northern Black Sea and Central Asian region from around 600 BC to AD 300."
+    description = ""
+
+  [[params.mission.item]]
+    weight = 6
+    name = "Order Now!"
+    title = "Contact US & Order Now!"
+    subtitle = "We're so excited to work with you! Please call us or send us an email:\n\n **Phone: (585) 204-0531**\n\n **Email: [contact@yurt.camp](mailto:contact@yurt.camp)**"
+    description = ""
+
+
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/483922187"
+  title = "Our Services"
+  description = "We are excited to work with you!"
+
+  [[params.services.item]]
+    icon = "icon-wallet"
+    title = "Affordable"
+    description = "We offer high quality, unique structures at an affordable prices."
+  [[params.services.item]]
+    icon = "icon-wrench"
+    title = "Hand-Crafted"
+    description = "Beautiful and elegant hand-made dwellings."
+  [[params.services.item]]
+    icon = "icon-notebook"
+    title = "Custom Designs"
+    description = "We can work with you to build a custom yurt with your exact specifications and needs in mind."
+  [[params.services.item]]
+    icon = "icon-globe"
+    title = "Bio-Regional"
+    description = "Responsible, low-impact & mobile dwellings."
+  [[params.services.item]]
+    icon = "icon-heart"
+    title = "Cooperative"
+    description = "We are a small collective of folks committed to social ecology and affordable housing."
+  [[params.services.item]]
+    icon = "icon-shield"
+    title = "Covid-Safe!"
+    description = "Need a socially-distanced space to host family, guests, and friends? Try a yurt!"
+
+  #[[params.services.item]]
+  #  icon = "icon-plane"
+  #  title = "We Deliver!"
+  #  description = "We can transport your yurt to you personally if you are bioregionly local. And if not, then we can ship the yurt and all accessories by freight to anywhere in the so-called United States!"
+
+  #[[params.services.item]]
+  #  icon = "icon-phone"
+  #  title = "Customer Support"
+  #  description = "Feel free to ask us any questions about your next yurt."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/1.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/2.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/3.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/4.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/12.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/6.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/7.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/8.jpg"
+
+[[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/9.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/5.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/11.jpg"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gallery/10.jpg"
+# Team section
+[params.team]
+  enable = false
+  title = "Guild Members"
+  description = "We are a collective working to promote our values through craft."
+
+  [[params.team.item]]
+    name = "Chaya"
+    position = "Chief legend"
+    description = "Goat & King Killer"
+    img = "images/person1.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "MaryRose"
+    position = "Chief overlord"
+    description = "Passionate about ecology, water, friends"
+    img = "images/person2.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Fern"
+    position = "Chief haranguer"
+    description = "stuff and things"
+    img = "images/person3.jpg"
+    email = "contact@yurt.camp"
+    telephone = "585-204-0531"
+    #facebook = "#"
+    #twitter = "#"
+  #  dribbble = "#"
+  #  instagram = "#"
+    #github = "#"
+    #whatsapp = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Please [CONTACT US!](mailto:contact@yurt.camp) to buy a yurt or place a custom order!"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Send"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  email = 'contact@yurt.camp'
+  #github = "#"
+  #twitter = "#"
+  #facebook = "#"
+  #vine = "#"
+  #linkedin = "#"
+  #instagram = "#"
